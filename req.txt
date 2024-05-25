@@ -1,0 +1,7 @@
+pdfplumber
+transformers
+torch
+scikit-learn
+openai
+python-dotenv
+slack_sdk
