@@ -7,7 +7,6 @@ from slack_post import post_results_on_slack
 def main(pdf_path, questions, slack_channel):
     chunks = extract_text_from_pdf(pdf_path)
     answers = get_answers(chunks, questions)
-    print(answers)
     post_results_on_slack(slack_channel, answers)
 
 if __name__ == "__main__":

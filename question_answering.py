@@ -31,4 +31,5 @@ def get_answers(chunks, questions):
         )
         answer = response['choices'][0]['message']['content'].strip()
         answers[question] = answer if answer else "Data Not Available"
+        print(f"Question: {question}  \n Answer: {answer}")
     return answers
