@@ -1,6 +1,6 @@
 # AI Agent for PDF Question Answering
 
-This project creates an AI agent that extracts text from a PDF document, finds the most relevant chunks for a set of questions using embeddings, and queries the OpenAI API to generate answers. 
+In this project, I have created an AI agent that extracts text from a PDF document, finds the most relevant chunks for a set of questions using embeddings, and queries the OpenAI API (chat-gpt-3.5-turbo) to generate answers and post the QA on slack using slackapi. 
 
 ## Features
 
